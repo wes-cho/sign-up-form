@@ -17,11 +17,16 @@ body{
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    margin-top: 50vh;
-}
-.banner.site-logo{
-    opacity: 100%
+    margin-top: 48vh;
 }
 .site-logo{
-    max-height:20vh;
+    max-height: 20vh;
+}
+@font-face{
+    font-family: Odin;
+    src: url("/Users/wesleycho/repos/sign-up-form/resources/Norse Bold.otf");
+}
+.brand-name{
+    font-family: Odin, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 4rem;
 }
