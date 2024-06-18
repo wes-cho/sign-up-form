@@ -60,3 +60,20 @@ input{
 .bottom{
     padding: 3rem 0 0 3rem;
 }
+.submit{
+    padding: 1rem 4rem;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    background-color: #9ebdf0;
+    border:none;
+    border-radius: 10px;
+    text-shadow: 0.5px 0.5px 2px black;
+    box-shadow: 1px 1px 3px black;
+}
+.submit:hover{
+    background-color:#89B0F0;
+}
+.submit:active{
+    box-shadow: none;
+}
