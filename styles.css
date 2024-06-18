@@ -61,7 +61,7 @@ input{
     padding: 3rem 0 0 3rem;
 }
 .submit{
-    padding: 1rem 4rem;
+    padding: 1rem 3rem;
     font-weight: bold;
     font-size: 1rem;
     color: white;
@@ -70,10 +70,22 @@ input{
     border-radius: 10px;
     text-shadow: 0.5px 0.5px 2px black;
     box-shadow: 1px 1px 3px black;
+    margin-bottom: 1rem;
 }
 .submit:hover{
     background-color:#89B0F0;
 }
 .submit:active{
     box-shadow: none;
+}
+.login{
+    text-decoration: none;
+    color:#6C9EF0;
+}
+.login:hover{
+    font-weight:bolder;
+    color:#6C9EF0;
+}
+.login:visited{
+    color:#8162D9;
 }
