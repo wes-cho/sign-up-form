@@ -4,7 +4,7 @@ body{
 .container{
     display: flex;
 }
-.photo{
+.left-side{
     background-image: url("/Users/wesleycho/repos/sign-up-form/resources/Stunning Mountains by Jeremy Bishop.jpg");
     height: 100vh;
     background-size: cover;
@@ -29,4 +29,10 @@ body{
 .brand-name{
     font-family: Odin, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 4rem;
+}
+.top{
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 8rem 1rem 2rem 1rem;
 }
