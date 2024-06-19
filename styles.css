@@ -10,7 +10,7 @@ body{
 /* ------------------------------------------- */
 
 .left-side{
-    background-image: url("/resources/Stunning Mountains by Jeremy Bishop.jpg");
+    background-image: url("resources/Stunning Mountains by Jeremy Bishop.jpg");
     background-size: cover;
     height: 100vh;
     width: fit-content;
