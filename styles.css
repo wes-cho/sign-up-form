@@ -1,12 +1,14 @@
 body{
     margin:0;
+    background-color: #F5F5F5;
 }
 .container{
     display: flex;
     min-width: 70rem;
     max-width: 85rem;
-    border: solid;
 }
+/* ------------------------------------------- */
+
 .left-side{
     background-image: url("/Users/wesleycho/repos/sign-up-form/resources/Stunning Mountains by Jeremy Bishop.jpg");
     background-size: cover;
@@ -34,21 +36,44 @@ body{
     font-family: Odin, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 4rem;
 }
+/* ------------------------------------------- */
+
 .top{
-    font-family: Lato;
+    font-family: Lato,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 30px;
     font-weight: 600;
     padding: 8rem 1rem 2rem 3rem;
 }
-input, label{
-    display:flex;
-    flex-direction:column;
+/* ------------------------------------------- */
+
+/* .form{
+    display: flex;
+} */
+ ul{
+    width:100%;
+    padding-left: 0;
+ }
+ ul li{
+    width:49%;
+    display:inline-block;
+    padding-bottom: 1rem;
+ }
+ ul li > * {
+    width:100;
+ }
+label{
+    letter-spacing: 1px;
+    font-size:0.75rem;
+    width: fit-content;
+    display: block;
+    margin: 0.25rem 0;
 }
 input{
-    width:150px;
+    min-width: 14rem;
 }
+/* ------------------------------------------- */
+
 .right-side{
-    background-color: #F5F5F5;
     font-family: Lato, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .form{
@@ -77,6 +102,7 @@ input{
 }
 .submit:active{
     box-shadow: none;
+    text-shadow:0.5px 0.5px 1px black;
 }
 .login{
     text-decoration: none;
